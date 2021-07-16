@@ -1,11 +1,15 @@
 :root {
-    --body-lighter: rgb(13, 17, 23) ;
+    --primair: #149D84;
+    --body-lighter: rgb(13, 17, 23);
 	--body: rgb(9, 12, 16);
+
 	--text: #ffffff;
+	--text-secundair: rgb(138, 148, 158);
+
 	--border: 1.8px solid rgb(48, 54, 61);
 	--hover: rgb(33, 38, 45);
 
-    --border-radius: 25px;
+    --border-radius: 15px;
 
 	--gap-small: 10px;
 	--gap: 15px;
