@@ -12,6 +12,15 @@ const routes: Array<RouteRecordRaw> = [
       icon: "dashboard",
     },
   },
+  {
+    path: "/settings",
+    name: "Settings",
+    component: Settings,
+    meta: {
+      hidden: false,
+      icon: "settings",
+    },
+  },
 ];
 
 const router = createRouter({
